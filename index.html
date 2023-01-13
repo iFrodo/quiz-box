@@ -1,132 +1,232 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-box</title>
 </head>
+
 <body>
     <div class="wrapper">
         <section class="hero">
-<header>
-    <a href="#" >
-        <img src="#" alt="#" class="logo">
-    </a>
-    <nav class="nav-bar">
-        <a href="#">Главная</a>
-        <a href="#">Игры</a>
-        <a href="#">Отзывы</a>
-    </nav>
-    <div class="about">
-        <h1>8 800 700 30 30</h1>
-        <p title="пн-вс:09:10 - 20:00 Обед:14:00-14:30">График работы</p>
-    </div>
-</header>
-<div class="hero__content">
-    <h1>Интеллектуальный вечер для шумной компании</h1>
-    <p>Игры на любой вкус</p>
-    <button>Подробнее</button>
-</div>
+            <header class="header">
+                <a href="#" class="logo">
+                    <img src="#" alt="#" class="logo__img">
+                </a>
+                <nav class="nav-bar">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Игры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="contacts">
+                    <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
+                    <p class="contacts__shedule">График работы</p>
+                </address>
+            </header>
+            <div class="hero__content">
+                <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
+                <p class="hero__text">Игры на любой вкус</p>
+                <button class="hero_button btn">Подробнее</button>
+            </div>
         </section>
         <section class="week-news">
-            <h2>Новинки недели <span>new</span></h2>
+            <h2 class="week-news__main-title">Новинки недели
+                <img class='week-news__ico' src="" alt="">
+            </h2>
+
             <ul class="week-news__list">
                 <li class="week-news__item">
-                    <img src="" alt="" class="week-news__img">
-                    <h3>Музыкальная игра</h3>
-                    <p class="week-news__desc">
-                        Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
-                    </p>
-                    <button>Смотреть</button>
+                    <div class="week-news__header">
+                        <img src="" alt="" class="week-news__img">
+                    </div>
+                    <div class="week-news_content">
+                        <h3 class="week-news__title">Музыкальная игра</h3>
+                        <ul class="week-news__features">
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">90 минут</div>
+                            </li>
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">70 вопросов</div>
+                            </li>
+                        </ul>
+                        <p class="week-news__desc">
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
+                            массового
+                            участия
+                        </p>
+                        <button class="week-news_button btn btn--theme-bordered">Смотреть</button>
+                    </div>
                 </li>
                 <li class="week-news__item">
-                    <img src="" alt="" class="week-news__img">
-                    <h3>Назад в 90-е</h3>
-                    <p class="week-news__desc">
-                        Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
-                    </p>
-                    <button>Смотреть</button>
+                    <div class="week-news__header">
+                        <img src="" alt="" class="week-news__img">
+                    </div>
+                    <div class="week-news_content">
+                        <h3 class="week-news__title">азад в 90-е</h3>
+                        <ul class="week-news__features">
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">90 минут</div>
+                            </li>
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">70 вопросов</div>
+                            </li>
+                        </ul>
+                        <p class="week-news__desc">
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
+                            массового
+                            участия
+                        </p>
+                        <button class="week-news_button btn btn--theme-bordered">Смотреть</button>
+                    </div>
                 </li>
                 <li class="week-news__item">
-                    <img src="" alt="" class="week-news__img">
-                    <h3>IT-викторина</h3>
-                    <p class="week-news__desc">
-                        Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
-                    </p>
-                    <button>Смотреть</button>
+                    <div class="week-news__header">
+                        <img src="" alt="" class="week-news__img">
+                    </div>
+                    <div class="week-news_content">
+                        <h3 class="week-news__title">IT-викторина</h3>
+                        <ul class="week-news__features">
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">90 минут</div>
+                            </li>
+                            <li class="week-news__features-item">
+                                <img src="" alt="" class="week-news__features-ico">
+                                <div class="week-news__features-text">70 вопросов</div>
+                            </li>
+                        </ul>
+                        <p class="week-news__desc">
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
+                            массового
+                            участия
+                        </p>
+                        <button class="week-news_button btn btn--theme-bordered">Смотреть</button>
+                    </div>
                 </li>
-                
             </ul>
         </section>
         <section class="last-games">
+            <h2 class="last-games__main-title">Прошедшие игры</h2>
             <ul class="last-games__list">
-                <h2>Прошедшие игры</h2>
-                <li class="last-games__item">
-                    <h3>Новогодний квиз</h3>
-                    <a href="#"><img src="#" alt="1">
-                    <p class="last-games__desc">
-                        <p>1 января</p>
-                        Успевайте забронировать даты.Пока еще есть места на декабрь.Удачи и всех благ
-                    </p>
-                </a>
-                </li>
-                <li class="last-games__item">
-                   
-                    <h3>Весенняя игра</h3>
-                    <a href="#"><img src="#" alt="2">
-                    <p class="last-games__desc">
-                        <p>8 марта</p>
-                        Успевайте забронировать даты.Пока еще есть места на декабрь.Удачи и всех благ
-                    </p>
-                </a>
-                </li>
-            </ul>
-            <ul class="nav-menu">
-                <p>Странница 1 из 7</p>
-                <li class="nav-menu__item"><a href="1">1</a></li>
-                <li class="nav-menu__item"><a href="2">2</a></li>
-                <li class="nav-menu__item"><a href="3">3</a></li>
-                <li class="nav-menu__item"><a href="4">4</a></li>
-                <li class="nav-menu__item"><a href="5">5</a></li>
-                <li class="nav-menu__item"><a href="6">6</a></li>
-                <li class="nav-menu__item"><a href="7">7</a></li>
 
+                <li class="last-games__item">
+
+                    <h3>Новогодний квиз</h3>
+                    <a class="last-games__card" href="#">
+                        <img class="last-games__img" src="#" alt="1">
+                        <div class="last-games__content__box">
+                            <date class="last-games__date">1 января</date>
+                            <p class="last-games__desc">
+                                Успевайте забронировать даты.Пока еще есть места на декабрь.Удачи и всех благ
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="last-games__item">
+
+                    <h3>Новогодний квиз</h3>
+                    <a class="last-games__card" href="#">
+                        <img class="last-games__img" src="#" alt="1">
+                        <div class="last-games__content__box">
+                            <date class="last-games__date">8 марта</date>
+                            <p class="last-games__desc">
+                                Успевайте забронировать даты.Пока еще есть места на декабрь.Удачи и всех благ
+                            </p>
+                        </div>
+                    </a>
+                </li>
             </ul>
+            <div class="nav-menu">
+                <p class="nav-menu__info">Странница 1 из 7</p>
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="1">1</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="2">2</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="3">3</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="4">4</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="5">5</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="6">6</a></li>
+                    <li class="nav-menu__item"><a class='nav-menu__link' href="7">7</a></li>
+
+                </ul>
+            </div>
         </section>
         <section class="about">
-            <img src="" alt="about">
+            <img src="" alt="about__decor">
             <div class="about__desc">
-                <h2>О нас</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, molestiae impedit eaque incidunt similique ab!
-
+                <h2 class="about__title">О нас</h2>
+                <p class="about__text">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке,
+                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
                 </p>
-                <button>Подробнее</button>
+                <button class="about__button btn btn--theme-bordered btn--theme-bordered">Подробнее</button>
             </div>
         </section>
 
-        <section class="footer">
-        <footer>
-            <a href="#" >
-            <img src="" alt="logo">
-        </a>
-        <nav class="nav-bar">
-            <a href="#">Главная</a>
-            <a href="#">Игры</a>
-            <a href="#">Отзывы</a>
-            
-        </nav>
-        <div class="socials">
-            <ul class="socials__list">
-                <li class="socials__item"><a>T<img src="" alt=""></a></li>
-                <li class="socials__item"><a>VK<img src="" alt=""></a></li>
-                <li class="socials__item"><a>F<img src="" alt=""></a></li>
-                <li class="socials__item"><a>I<img src="" alt=""></a></li>
-            </ul>
-        </div>
+
+        <footer class="footer">
+            <a href="#" class="logo">
+                <img src="#" alt="#" class="logo__img">
+            </a>
+            <nav class="nav-bar">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#">Игры</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="socials">
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a class="socials__link">
+                            <img class="socials__icon" src="" alt="T">
+                        </a >
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link">
+                            <img class="socials__icon" src="" alt="VK">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link">
+                            <img class="socials__icon" src="" alt="F">
+                        </a></li>
+                    <li class="socials__item">
+                        <a class="socials__link">
+                            <img class="socials__icon" src="" alt="I">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <address class="contacts">
+                <p class="contacts__info">График работы</p>
+                <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
+               
+            </address>
         </footer>
-    </section>
+
     </div>
 </body>
+
 </html>
