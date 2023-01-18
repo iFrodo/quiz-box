@@ -1,33 +1,437 @@
 /* open-sans-regular - latin_cyrillic */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/open-sans-v34-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v34-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* open-sans-600 - latin_cyrillic */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: local(''),
-         url('../fonts/open-sans-v34-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v34-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* open-sans-700 - latin_cyrillic */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/open-sans-v34-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v34-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  html{
-    box-sizing: border-box;
-  }
-  *, *::before, *::after{
-    box-sizing: inherit;
-  }
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/open-sans-v34-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/open-sans-v34-latin_cyrillic-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('../fonts/open-sans-v34-latin_cyrillic-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/open-sans-v34-latin_cyrillic-600.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/open-sans-v34-latin_cyrillic-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/open-sans-v34-latin_cyrillic-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
+
+/*header start*/
+.header {
+  margin-top: 26px;
+}
+
+.header .logo {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: -5px;
+  position: absolute;
+  left: 390px
+}
+
+.logo {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: -5px;
+}
+
+.header .nav-bar {
+  position: relative;
+  left: 809px;
+  top: 11px;
+
+}
+
+.menu__item {
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.header .contacts {
+  position: absolute;
+  left: 1340px;
+  top: 28px;
+  font-size: 26px;
+  line-height: 1;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.contacts__shedule {
+  position: absolute;
+  left: 93px;
+  top: 13px;
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+/*header end*/
+
+/*hero start*/
+
+.hero__title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+  width: 637px;
+  left: 390px;
+  top: 170px;
+}
+
+.hero__text {
+  position: absolute;
+  font-size: 21px;
+  line-height: 29px;
+  top: 400px;
+  left: 395px;
+}
+
+.btn {
+  width: 135px;
+  height: 55px;
+  font-size: 14px;
+  line-height: 19px;
+  border: 1px solid #8F00FF;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #8F00FF;
+}
+
+.hero_button {
+  position: absolute;
+  top: 526px;
+  left: 390px;
+  width: 168px;
+  height: 55px;
+  background: #8F00FF;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: #8F00FF;
+  color: #ffffff
+}
+
+/*hero end*/
+
+/*week-news start*/
+.week-news__main-title {
+  position: absolute;
+  top: 745px;
+  left: 392px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.week-news__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.week-news__img {
+  width: 362px;
+  height: 144px;
+}
+
+.week-news__list {
+  display: inline-block;
+  position: absolute;
+  top: 810px;
+  left: 392px;
+}
+
+.week-news__item {
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  width: 362px;
+  height: 449px;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.week-news__features-item {
+  display: inline-block;
+  margin-right: 54px;
+  position: relative;
+  left: 20px;
+
+
+}
+
+.week-news__features-ico {
+  display: inline;
+  vertical-align: middle;
+
+
+}
+
+.week-news__features-text {
+  display: inline;
+  vertical-align: middle;
+  color: #666666;
+}
+
+/*week-news end*/
+
+/*last-games start*/
+.last-games__main-title {
+  position: relative;
+  left: 390px;
+  top: 1370px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.last-games__item {
+  position: relative;
+  top: 1371px;
+  left: 350px;
+  display: inline-block;
+  padding: 20px
+}
+
+.last-games__content__box {
+  position: relative;
+  top: -182px;
+  padding: 20px;
+  width: 477px;
+  height: 61px;
+}
+
+.last-games__desc {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
+  position: relative;
+  top: -15px;
+  left: 20px;
+}
+
+.last-games__title {
+  position: relative;
+  width: 224px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  top: 5px;
+  left: 22px
+}
+
+.last-games__date {
+  position: relative;
+  font-size: 16px;
+  line-height: 21px;
+  top: 19px;
+  left: 26px
+}
+
+/*last-games end*/
+.nav-menu {
+  position: relative;
+  top: 1259px;
+  left: 772px;
+}
+
+.nav-menu__info {
+  font-size: 16px;
+  line-height: 20px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.nav-menu__list {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.nav-menu__list li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-menu__list a:hover {
+  border: 10px solid;
+  background: #8F00FF;
+  border-radius: 40%;
+}
+
+.about__img {
+  position: relative;
+  top: 1410px;
+  left: 390px;
+  width: 489px;
+  height: 505px;
+}
+
+.about__desc {
+  position: relative;
+  top: 966px;
+  left: 744px;
+  width: 785px;
+  height: 455px;
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+  border-radius: 5px;
+
+}
+
+.about__title {
+  position: relative;
+  top: 69px;
+  left: 80px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.about__text {
+  position: relative;
+  top: 79px;
+  left: 79px;
+  font-size: 16px;
+  line-height: 27px;
+  width: 502px;
+  height: 135px;
+}
+
+.about__button {
+  width: 168px;
+  height: 55px;
+  position: relative;
+  top: 105px;
+  left: 80px;
+  color: #ffffff;
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+  ;
+}
+
+hr {
+  position: relative;
+  top: 1015px;
+  width: 1142px;
+  height: 4px;
+  color: #ffffff
+}
+
+.footer .contacts__phone {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 20px;
+  position: relative;
+  top: 920px;
+  left: 1340px
+}
+
+.contacts__info {
+  font-size: 11px;
+  line-height: 20px;
+  position: relative;
+  top:926px;
+  left:1370px
+}
+
+.socials__item {
+  display: inline;
+  position: relative;
+  top: 985px;
+  left: 1095px;
+  margin: 2px
+}
+
+.footer .logo {
+  position: relative;
+  top: 1050px;
+  left: 390px
+}
+
+.footer .menu__item {
+  position: relative;
+  top: 1014px;
+  left: 678px
+}
