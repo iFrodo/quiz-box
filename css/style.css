@@ -218,6 +218,7 @@ background:url(../img/фон.jpg);
   top: -20px;
   width: 362px;
   height: 144px;
+  background: black;
 }
 
 .week-news__list {
