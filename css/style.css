@@ -55,15 +55,19 @@ ul>li {
 
 a {
   text-decoration: none;
+  color:#ffffff
 }
-
+a:hover{
+  color: #8F00FF;
+}
 body {
-
+background:url(../img/фон.jpg);
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  color:#ffffff
 }
 
 
@@ -118,7 +122,9 @@ body {
 .menu__item:last-child {
   margin-right: 0;
 }
-
+.menu__link{
+  color: #ffffff;
+}
 .header .contacts {
   position: absolute;
   left: 1340px;
