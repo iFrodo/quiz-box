@@ -213,6 +213,9 @@ background:url(../img/фон.jpg);
 }
 
 .week-news__img {
+  position: relative;
+  left: -20px;
+  top: -20px;
   width: 362px;
   height: 144px;
 }
@@ -233,6 +236,8 @@ background:url(../img/фон.jpg);
   align-items: center;
   align-content: center;
   padding: 20px;
+  background: #ffffff;
+  color: #212121;
 }
 
 .week-news__features-item {
