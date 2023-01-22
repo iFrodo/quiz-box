@@ -82,6 +82,10 @@ body {
   line-height: 21px;
   color: #ffffff
 }
+section{
+  position: relative;
+  z-index: 1;
+}
 .wrapper__main{
   position: relative;
   /*background:url(../img/1.png) center top / contain no-repeat,url(../img/2.png) center bottom / contain no-repeat;*/
