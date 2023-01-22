@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Quiz-box</title>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper__main">
         <section class="hero">
             <header class="header">
-                <a href="#" class="logo">Quiz-box
-                    <!--<img src="#" alt="#" class="logo__img">-->
+                <div class="container">
+                <a href="#" class="logo header__logo">Quiz-box
                 </a>
-                <nav class="nav-bar">
+                <nav class="nav-bar header__nav-bar">
                     <ul class="menu">
                         <li class="menu__item">
                             <a class="menu__link" href="#">Главная</a>
@@ -30,25 +30,27 @@
                         </li>
                     </ul>
                 </nav>
-                <address class="contacts">
+                <address class="contacts header__contacts">
                     <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
                     <p class="contacts__shedule">График работы</p>
                 </address>
+            </div>
             </header>
-            <div class="hero__content">
+            <div class="hero__content container">
                 <h1 class="hero__title">Интеллектуальный вечер для шумной компании</h1>
                 <p class="hero__text">Игры на любой вкус</p>
-                <button class="hero_button btn">Подробнее</button>
+                <button class="hero__button btn">Подробнее</button>
             </div>
         </section>
         <section class="week-news">
+            <div class="container">
             <h2 class="week-news__main-title">Новинки недели
                 <img class='week-news__ico' src="./img/svg/Group.svg" alt="">
             </h2>
             <ul class="week-news__list">
                 <li class="week-news__item">
                     <div class="week-news__header">
-                        <img src="./img/music-quiz 1.png" alt="" class="week-news__img">
+                        <img src="./img/music-quiz1.png" alt="" class="week-news__img week-news_object-position">
                     </div>
                     <div class="week-news__content">
                         <h3 class="week-news__title">Музыкальная игра</h3>
@@ -63,9 +65,7 @@
                             </li>
                         </ul>
                         <p class="week-news__desc">
-                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
-                            массового
-                            участия
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
                         </p>
                         <button class="week-news__button btn btn--theme-bordered">Смотреть</button>
                     </div>
@@ -87,9 +87,7 @@
                             </li>
                         </ul>
                         <p class="week-news__desc">
-                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
-                            массового
-                            участия
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
                         </p>
                         <button class="week-news__button btn btn--theme-bordered">Смотреть</button>
                     </div>
@@ -111,16 +109,16 @@
                             </li>
                         </ul>
                         <p class="week-news__desc">
-                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем
-                            массового
-                            участия
+                            Равным образом постоянное общение нашей деятельности позволяет оценить значение систем массового участия
                         </p>
                         <button class="week-news__button btn btn--theme-bordered">Смотреть</button>
                     </div>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="last-games">
+            <div class="container">
             <h2 class="last-games__main-title">Прошедшие игры</h2>
             <ul class="last-games__list">
                 <li class="last-games__item">
@@ -140,7 +138,7 @@
                         <img class="last-games__img" src="./img/Mask Group (2).png" alt="1">
                         <div class="last-games__content__box">
                             <date class="last-games__date">8 марта</date>
-                            <h3 class="last-games__title">Новогодний квиз</h3>
+                            <h3 class="last-games__title">Весенняя игра</h3>
                             <p class="last-games__desc">
                                 Успевайте забронировать даты.Пока еще есть места на декабрь.Удачи и всех благ
                             </p>
@@ -149,7 +147,7 @@
                 </li>
             </ul>
             <div class="nav-menu">
-                <p class="nav-menu__info">Странница 1 из 7</p>
+                <p class="nav-menu__info">Страница 1 из 7</p>
                 <ul class="nav-menu__list">
                     <li class="nav-menu__item"><a class='nav-menu__link' href="1">1</a></li>
                     <li class="nav-menu__item"><a class='nav-menu__link' href="2">2</a></li>
@@ -161,26 +159,29 @@
 
                 </ul>
             </div>
+        </div>
         </section>
         <section class="about">
+            <div class="container about__container">
+                <div class="about__img-box">
             <img src="./img/kviz_pliz__nizhnii_novgorod_1_qg_large 1.png" alt="about__decor" class="about__img">
+        </div>
             <div class="about__desc">
                 <h2 class="about__title">О нас</h2>
                 <p class="about__text">
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
-                    менее осмысленного текста рыбы на русском языке,
-                    а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                    менее осмысленного текста рыбы на русском языке,а начинающему оратору отточить навык публичных выступлений в домашних условиях.
                 </p>
-                <button class="about__button btn btn--theme-bordered btn--theme-bordered">Подробнее</button>
+                <button class="about__button btn btn--theme-bordered">Подробнее</button>
+            </div>
             </div>
         </section>
-<hr>
 
         <footer class="footer">
+            <div class="container footer__container">
             <a href="#" class="logo">Quiz-box
-                <!--</1><img src="#" alt="#" class="logo__img">-->
             </a>
-            <nav class="nav-bar">
+            <nav class="nav-bar footer__nav-bar">
                 <ul class="menu">
                     <li class="menu__item">
                         <a class="menu__link" href="#">Главная</a>
@@ -193,7 +194,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="socials">
+            <div class="socials footer__socials">
                 <ul class="socials__list">
                     <li class="socials__item">
                         <a class="socials__link" href="">
@@ -218,11 +219,12 @@
                 </ul>
             </div>
 
-            <address class="contacts">
+            <address class="contacts footer__contacts">
                 <p class="contacts__info">Бесплатный звонок по России</p>
                 <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
 
             </address>
+        </div>
         </footer>
 
     </div>
