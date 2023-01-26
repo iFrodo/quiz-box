@@ -630,9 +630,9 @@ section {
   margin-bottom: 120px;
 }
 .partners__item {
-  margin-right: 70px;
+  margin-right: 46px;
   margin-top: 40px;
-  width: 200px;
+  min-width: 200px;
 }
 .partners__link {
   display: block;
