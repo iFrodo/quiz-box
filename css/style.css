@@ -508,30 +508,32 @@ section {
 }
 
 /*games page*/
+
 .header__games {
   padding-top: 22px;
+  color: #fff;
 }
 .header__container {
   margin-bottom: 96px;
 }
 
-  .wrapper__games::before {
-    content: "";
-    width: 100%;
-    height: 412px;
-    background: url(../img/1.png) center top / cover no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    filter: grayscale(1);
-  }
-
+.wrapper__games::before {
+  content: "";
+  width: 100%;
+  height: 412px;
+  background: url(../img/1.png) center top / cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: grayscale(1);
+}
 
 .main-title__games {
   font-weight: 700;
   font-size: 72px;
   line-height: 98px;
   margin-bottom: 105px;
+  color: #fff;
 }
 .breadcrumps {
   margin-bottom: 119px;
@@ -573,23 +575,6 @@ section {
   line-height: 27px;
   margin-bottom: 34px;
 }
-
-.nav-menu__games {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 173px;
-}
-.nav-menu__info--games {
-  margin-right: 15px;
-}
-
-.nav-menu__link--games {
-  color: #17191c;
-}
 .week-news__games {
   background: #ffffff;
 }
@@ -609,6 +594,23 @@ section {
 }
 .week-news__button--games {
   padding: 18px 40px;
+}
+/* Nav-menu */
+.nav-menu__games {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 173px;
+}
+.nav-menu__info--games {
+  margin-right: 15px;
+}
+
+.nav-menu__link--games {
+  color: #17191c;
 }
 
 /* Partners */
@@ -630,14 +632,14 @@ section {
   margin-top: 40px;
   width: 200px;
 }
-.partners__link{
+.partners__link {
   display: block;
 }
 
-.footer{
-  background: #17191C;
+.footer {
+  background: #17191c;
 }
-.footer__games{
+.footer__games {
   padding: 48px 0px;
   margin-top: 54px;
   padding-bottom: 67px;
@@ -646,6 +648,6 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-.footer__games .footer__contacts{
+.footer__games .footer__contacts {
   color: #fff;
 }
