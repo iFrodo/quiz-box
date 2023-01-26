@@ -528,9 +528,7 @@ section {
   filter: grayscale(1); 
 
 }
-.wrapper__games img{
-  object-position: 10px 10px;
-}
+
 .main-title__games {
   font-weight: 700;
   font-size: 72px;
