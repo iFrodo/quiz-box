@@ -8,6 +8,7 @@
     color: #8f00ff;
     padding: 18px 30px;
     font-weight: bold;
+    cursor: pointer;
   }
   .btn:hover {
     background: #9f00ff;

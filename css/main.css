@@ -1,11 +1,12 @@
 @import url(./layout/normalize.css);
 @import url(./layout/fonts.css);
 @import url(./layout/base.css);
-@import url(./blocks/main-page.css);
-@import url(./blocks/games-page.css);
-@import url(./blocks/container.css);
 @import url(./blocks/header.css);
 @import url(./blocks/button.css);
+@import url(./blocks/main-page.css);
+@import url(./blocks/games-page.css);
+@import url(./blocks/welcome-page.css);
+@import url(./blocks/container.css);
 @import url(./blocks/hero.css);
 @import url(./blocks/week-news.css);
 @import url(./blocks/last-games.css);
