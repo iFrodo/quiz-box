@@ -2,6 +2,7 @@
     margin-bottom: 191px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 191px;
   }
   
   .hero__title {
@@ -23,6 +24,6 @@
     color: #ffffff;
     padding: 18px 40px;
     font-weight: bold;
-    margin-bottom: 191px;
+ 
   }
     
