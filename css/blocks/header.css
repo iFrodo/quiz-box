@@ -1,63 +1,97 @@
 .header {
-    padding-top: 22px;
-    margin-bottom: 138px;
-  }
-  .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-  }
-  .header__nav-bar {
-    display: flex;
-    align-items: center;
-    margin-left: 34px;
-  }
-  .menu {
-    display: flex;
-    align-items: center;
-  }
-  .menu__item {
-    margin-right: 66px;
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .menu__item:last-child {
-    margin-right: 0;
-  }
-  .menu__link {
-    color: #ffffff;
-  }
-  .active {
-    color: #8f00ff;
-  }
-  .header__contacts {
-    font-style: normal;
-  }
-  .contacts__phone {
-    line-height: 1;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-size: 26px;
-    display: block;
-  }
-  .contacts__shedule {
-    text-align: right;
-    font-size: 13px;
-    line-height: 1;
-    margin-top: -2px;
-  }
-  .logo {
-    white-space: nowrap;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-    background: linear-gradient(87.62deg, #8f00ff -2.44%, #00a3ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  /*header end*/
-  
+  padding-top: 22px;
+  margin-bottom: 138px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 34px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  margin-right: 66px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  color: #ffffff;
+}
+.active {
+  color: #8f00ff;
+}
+.header__contacts {
+  font-style: normal;
+}
+.contacts__phone {
+  line-height: 1;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 26px;
+  display: block;
+}
+.contacts__shedule {
+  text-align: right;
+  font-size: 13px;
+  line-height: 1;
+  margin-top: -2px;
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 57px;
+  right: 3px;
+  opacity: 1;
+  background: #ededed;
+  color: #1E1F20;
+  padding: 12px 18px 13px;
+  border-radius: 5px;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.submenu::before {
+  content: ''; 
+  position: absolute; /* Абсолютное позиционирование */
+  right: 42px; top: -20px; /* Положение треугольника */
+  border: 10px solid transparent; /* Прозрачные границы */
+  border-bottom: 10px solid #ededed; /* Добавляем треугольник */
+}
+
+.header__contacts:hover .submenu  {
+  opacity: 1;
+  visibility: visible;
+}
+.work-time {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21px;
+}
+.lanch {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+}
+.logo {
+  white-space: nowrap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  background: linear-gradient(87.62deg, #8f00ff -2.44%, #00a3ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/*header end*/
