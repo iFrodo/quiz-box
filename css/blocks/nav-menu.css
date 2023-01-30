@@ -1,0 +1,48 @@
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    
+  }
+  
+  .nav-menu__info {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+    margin-left: 13px;
+  }
+  
+  .nav-menu__list {
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+  
+  }
+  
+  .nav-menu__item {
+    margin-right: 2px;
+  
+  }
+  
+  .nav-menu__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+    color:inherit
+  
+  }
+  
+  .nav-menu__link:hover {
+    background: #8f00ff;
+    color: #ffffff;
+  }
+  .nav-menu--theme-dark{
+    color:#17191c
+  }
+  .nav-menu--theme-games{
+    margin-left: 32px;
+  }
