@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   padding: 30%;
   animation: myAnimation 0.8s;
+  overflow: hidden;
 }
 @keyframes myAnimation {
   0% {
