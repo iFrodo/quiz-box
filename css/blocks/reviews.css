@@ -5,7 +5,7 @@
   line-height: 115px;
 }
 .reviews {
-  margin-bottom: 75px;
+  margin-bottom: 42px;
 }
 .reviews__list {
   columns: 2;
@@ -18,6 +18,7 @@
   border-radius: 5px;
   padding: 46px 32px 37px;
   display: inline-block;
+  margin-bottom: 15px;
 }
 .reviews__header {
   display: flex;
@@ -72,5 +73,5 @@
   text-align: left;
 }
 .nav-menu--reviews {
-  margin-bottom: 77px;
+  margin-bottom: 80px;
 }
