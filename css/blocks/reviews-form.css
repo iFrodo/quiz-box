@@ -1,0 +1,120 @@
+.reviews-form {
+  background: #f4f5f5;
+}
+
+.reviews-form__title {
+  font-size: 48px;
+  line-height: 65px;
+  padding-top: 57px;
+  margin-bottom: 57px;
+}
+textarea,
+input:focus {
+  outline: none;
+}
+input:focus {
+  border: 1px solid #8f00ff;
+}
+textarea:focus {
+  border: 1px solid #8f00ff;
+}
+.reviews-form__input {
+  min-width: 557px;
+  min-height: 65px;
+  margin-bottom: 26px;
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 7px 0 8px 32px;
+  border: none;
+}
+
+.reviews-form__input:last-child {
+  margin-right: 0;
+}
+
+.reviews-form__textarea {
+  min-width: 1137px;
+  min-height: 235px;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 28px 29px;
+  margin-bottom: 16px;
+  border: none;
+}
+
+.reviews-form__feedback {
+  max-width: 1118px;
+}
+.reviews-form__list {
+  display: flex;
+  margin-bottom: 33px;
+}
+.reviews-form__question {
+  white-space: nowrap;
+  margin-right: 13px;
+  font-size: 18px;
+  line-height: 50px;
+}
+.reviews-form__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+}
+.reviews-form__tag {
+  align-self: flex-start;
+  margin-right: 20px;
+  margin-bottom: -4px;
+  font-size: 13px;
+  line-height: 18px;
+  background: #e7e7e7;
+}
+
+.checkbox-btn input[type="checkbox"] {
+  z-index: 1;
+  opacity: 0;
+  display: block;
+}
+.checkbox-btn span {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4px 22px;
+  line-height: 30px;
+  border-radius: 35px;
+  transition: background 0.2s ease;
+}
+
+/* Checked */
+.checkbox-btn input[type="checkbox"]:checked + span {
+  background: #b9eae4;
+}
+
+/* Focus */
+.focused span {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.reviews-form__button {
+  margin-right: 22px;
+  background: #8f00ff;
+  color: #ffffff;
+  padding: 19px 41px;
+  border: none;
+}
+.reviews-form__button:hover {
+  background: #741bba;
+}
+.reviews-form__buttons {
+  margin-right: -48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 91px;
+}
+.btn--theme-dark {
+  background: #8e8e8e;
+  color: #ffffff;
+  border: none;
+}
+.btn--theme-dark:hover {
+  background: #2b2b2b;
+}

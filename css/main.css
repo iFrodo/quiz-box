@@ -6,6 +6,11 @@
 @import url(./blocks/main-page.css);
 @import url(./blocks/games-page.css);
 @import url(./blocks/welcome-page.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/separator.css);
+@import url(./blocks/reviews-form.css);
+@import url(./blocks/partners.css);
+@import url(./blocks/breadcrumps.css);
 @import url(./blocks/container.css);
 @import url(./blocks/hero.css);
 @import url(./blocks/week-news.css);

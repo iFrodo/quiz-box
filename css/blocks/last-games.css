@@ -18,6 +18,14 @@
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 47px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  .last-games__item:hover{
+    opacity: 1;
+    transform: scale(1.05);
+  
+
   }
   
   .last-games__item:last-child {
