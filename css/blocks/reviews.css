@@ -36,15 +36,14 @@
   font-size: 24px;
   line-height: 42px;
   align-items: center;
-  text-decoration-line: underline;
-  
   margin-top: 9px;
   margin-bottom: 4px;
-  color: #1A1B1E;
+  color: #1a1b1e;
 }
-.user-desc__name:hover{
+.user-desc__name:hover {
   color: #2e77a4;
   cursor: pointer;
+  text-decoration-line: underline;
 }
 .user-desc__tag {
   display: inline-flex;
