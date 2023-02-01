@@ -37,9 +37,14 @@
   line-height: 42px;
   align-items: center;
   text-decoration-line: underline;
-  color: #2e77a4;
+  
   margin-top: 9px;
   margin-bottom: 4px;
+  color: #1A1B1E;
+}
+.user-desc__name:hover{
+  color: #2e77a4;
+  cursor: pointer;
 }
 .user-desc__tag {
   display: inline-flex;
