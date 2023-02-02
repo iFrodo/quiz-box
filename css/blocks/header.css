@@ -61,6 +61,7 @@
   border-radius: 5px;
   visibility: hidden;
   transition: 0.3s;
+  box-shadow: 0 0 5px #e7e7e7;
 }
 .submenu::before {
   content: ''; 
@@ -74,12 +75,12 @@
   opacity: 1;
   visibility: visible;
 }
-.work-time {
+.submenu__work-time {
   font-weight: 700;
   font-size: 13px;
   line-height: 21px;
 }
-.lanch {
+.submenu__lanch {
   font-weight: 600;
   font-size: 13px;
   line-height: 21px;
