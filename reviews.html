@@ -176,60 +176,58 @@
                 <img class='separator__img' src="./img/separator.png" alt="">
             </div>
         </section>
-        <section class="reviews-form">
+        <form class="reviews-form">
             <div class="container">
                 <h3 class="reviews-form__title">Оставьте отзыв</h3>
-                <div class="reviews-form__inputs">
-
-                    <input class='reviews-form__input' type="text" name="name" id="name" placeholder="Ваше имя">
-
-                    <input class='reviews-form__input' type="text" placeholder="Ссылка на профиль VK">
-                </div>
-                <textarea class='reviews-form__textarea' name="" id=""
-                    placeholder="Напишите свой честный отзыв ;)"></textarea>
-
-                <div class="reviews-form__feedback">
-                    <ul class="reviews-form__list">
-                        <li class="reviews-form__question">Какими услугами компании пользуетесь?</li>
-                        <li class="reviews-form__tags">
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">IT-викторина </span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox" checked>
-                                <span class="reviews-form__tag">Весенняя игра</span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">Кино и музыка</span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">Гарри Поттер</span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">Никакими</span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">Назад в 90-е</span>
-                            </label>
-                            <label class="checkbox-btn">
-                                <input type="checkbox">
-                                <span class="reviews-form__tag">Другое </span>
-                            </label>
-
-                        </li>
-                    </ul>
-                    <div class="reviews-form__buttons">
-                        <button class="reviews-form__button btn btn--theme-dark">Очистить</button>
-                        <button class="reviews-form__button btn">Отправить</button>
+                <form action="">
+                    <div class="reviews-form__inputs">
+                        <input class='reviews-form__input' type="text" name="name" id="name" placeholder="Ваше имя">
+                        <input class='reviews-form__input' type="text" name="social" placeholder="Ссылка на профиль VK">
                     </div>
-                </div>
+                    <textarea class='reviews-form__textarea' name="comment" id=""
+                        placeholder="Напишите свой честный отзыв ;)"></textarea>
+                    <div class="reviews-form__feedback">
+                        <ul class="reviews-form__list">
+                            <li class="reviews-form__question">Какими услугами компании пользуетесь?</li>
+                            <li class="reviews-form__tags">
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >IT-викторина </span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour" checked>
+                                    <span class="reviews-form__tag" >Весенняя игра</span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >Кино и музыка</span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >Гарри Поттер</span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >Никакими</span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >Назад в 90-е</span>
+                                </label>
+                                <label class="checkbox-btn">
+                                    <input type="checkbox" name="tour">
+                                    <span class="reviews-form__tag" >Другое </span>
+                                </label>
+
+                            </li>
+                        </ul>
+                        <div class="reviews-form__buttons">
+                            <button class="reviews-form__button btn btn--theme-dark">Очистить</button>
+                            <button class="reviews-form__button btn">Отправить</button>
+                        </div>
+                    </div>
             </div>
-        </section>
+        </form>
     </div>
 </body>
 
