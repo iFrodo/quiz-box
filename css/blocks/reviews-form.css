@@ -52,7 +52,7 @@ textarea:focus {
 }
 .reviews-form__question {
   white-space: nowrap;
-  margin-right: 13px;
+  margin-right: 57px;
   font-size: 18px;
   line-height: 50px;
 }
@@ -62,13 +62,19 @@ textarea:focus {
   margin-top: -10px;
 }
 .reviews-form__tag {
+  display: block;
   align-self: flex-start;
   margin-right: 20px;
   margin-bottom: -4px;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 1.4;
   background: #e7e7e7;
   box-shadow: 0 0 10px 0px #e7e7e7;
+  cursor: pointer;
+  padding: 4px 17px;
+  line-height: 30px;
+  border-radius: 35px;
+  transition: background 0.2s ease;
 }
 
 .checkbox-btn input[type="checkbox"] {
@@ -76,22 +82,14 @@ textarea:focus {
   opacity: 0;
   display: block;
 }
-.checkbox-btn span {
-  display: inline-block;
-  cursor: pointer;
-  padding: 4px 22px;
-  line-height: 30px;
-  border-radius: 35px;
-  transition: background 0.2s ease;
-}
 
 /* Checked */
-.checkbox-btn input[type="checkbox"]:checked + span {
+.checkbox-btn input[type="checkbox"]:checked + .reviews-form__tag {
   background: #b9eae4;
 }
 
 /* Focus */
-.focused span {
+.focused .reviews-form__tag {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .reviews-form__button {
@@ -100,7 +98,7 @@ textarea:focus {
   color: #ffffff;
   padding: 19px 41px;
   border: none;
-  box-shadow:0 0 7px #741bba;
+  box-shadow: 0 0 7px #741bba;
 }
 .reviews-form__button:hover {
   background: #741bba;
