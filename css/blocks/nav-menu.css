@@ -13,7 +13,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-right: 25px;
-  margin-left: 13px;
+  margin-left: 23px;
 }
 
 .nav-menu__list {
@@ -48,4 +48,7 @@
 }
 .nav-menu--theme-games {
   margin-left: 32px;
+}
+.nav-menu--theme-games .nav-menu__info{
+  margin-left:37px ;
 }

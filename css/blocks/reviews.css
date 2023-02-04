@@ -1,29 +1,25 @@
-.top-line--reviews {
-  margin-bottom: 97px;
-}
 .top-line__title--reviews {
   line-height: 115px;
 }
 .reviews {
-  margin-bottom: 42px;
+  padding: 95px 0 86px 0;
 }
 .reviews__list {
   columns: 2;
   gap: 27px;
-  margin-bottom: 15px;
+  margin-bottom: 58px;
 }
 .reviews__item {
-  max-width: 557px;
   background: #f4f5f5;
   border-radius: 5px;
-  padding: 46px 32px 37px;
+  padding: 52px 32px 30px 28px;
   display: inline-block;
   margin-bottom: 15px;
 }
 .reviews__header {
   display: flex;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 }
 .reviews__avatar {
   max-width: 142px;
@@ -75,7 +71,4 @@
   line-height: 27px;
   color: #1a1b1e;
   text-align: left;
-}
-.nav-menu--reviews {
-  margin-bottom: 80px;
 }

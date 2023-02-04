@@ -1,11 +1,15 @@
+.separator{
+  background: #17191c;
+  overflow: hidden;
+}
 .separator__container {
   min-width: 363px;
   height: 100%;
-  background: #17191c;
+
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
+  justify-content: space-between;
+
 
 }
 .separator__title {
@@ -17,7 +21,8 @@
 }
 .separator__img{
   position: relative;
-     bottom: -117px;
-    right: 53px;
+  bottom: -113px;
+    right: 61px;
     transform: scale(1.7);
+    max-height: 363px;
 }
