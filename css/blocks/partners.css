@@ -27,15 +27,10 @@
   }
   .partners__link {
     display: block;
+    filter: grayscale(1);
   }
-  .partners__link--pegasus{
-    width: 190px;
-    height: 60px;
-    background: url(../../img/partners-logos/pegasus1.png) 10px no-repeat;
-  }
-  .partners__link--pegasus:hover{
-    width: 190px;
-    height: 60px;
-    background: url(../../img/partners-logos/pegasus.png) 10px no-repeat;
+  .partners__link:hover{
+    filter: grayscale(0);
+ 
   }
   
